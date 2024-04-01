@@ -11,8 +11,8 @@
 #define ADC_MAX ((2 << (ADC_RESOLUTION - 1)) - 1)
 #define ADC_CORRECTION 1.0475
 #define OPERATING_VOLTAGE 3.3                     // V
-#define VDIV_R1 390.0                             // Ω
-#define VDIV_R2 100.0                             // Ω
+#define VDIV_R1 470.0                             // Ω
+#define VDIV_R2 120.0                             // Ω
 #define INPUT_VOLTAGE 12.0                        // V
 #define MIN_ALLOWED_VOLTAGE (INPUT_VOLTAGE - 1.0) // V
 #define MAX_ALLOWED_VOLTAGE (INPUT_VOLTAGE + 1.0) // V
@@ -46,7 +46,7 @@
 //===========================================================================
 //============================= Heater Settings =============================
 //===========================================================================
-#define HEATING_ELEMENT_NOMINAL_RESISTANCE 1.5       // Ω
+#define HEATING_ELEMENT_NOMINAL_RESISTANCE 1.787       // Ω
 #define HEATING_ELEMENT_RESISTANCE_PER_DEGREE 0.0085 // °C/Ω
 #define MAX_CURRENT 5.5                              // A
 #define MIN_CURRENT 1.0                              // A
